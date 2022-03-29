@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\DBModel;
+namespace e2c\mvc\DBModel;
 
-use app\core\Application;
+use e2c\mvc\Application;
 use PDO;
 
 trait ORMTrait

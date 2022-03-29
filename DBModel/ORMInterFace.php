@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\DBModel;
+namespace e2c\mvc\DBModel;
 
 interface ORMInterFace
 {

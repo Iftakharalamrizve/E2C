@@ -1,24 +1,24 @@
 <?php
 
-namespace app\core\router;
+namespace e2c\mvc\router;
 
-use app\core\Application;
-use app\core\Request;
-use app\core\Response;
+use e2c\mvc\Application;
+use e2c\mvc\Request;
+use e2c\mvc\Response;
 
 class Router
 {
     /**
      * The property  store request instance  this property .
      *
-     * @var \app\core\Request
+     * @var \e2c\mvc\Request
      */
     public Request $request;
 
     /**
      * The property  store response instance  this property .
      *
-     * @var \app\core\Response
+     * @var \e2c\mvc\Response
      */
     private Response $response;
 
@@ -54,8 +54,8 @@ class Router
     /**
      * Assign Request and Response class instance in this class property
      *
-     * @param \app\core\Request  $request
-     * @param \app\core\Response $response
+     * @param \e2c\mvc\Request  $request
+     * @param \e2c\mvc\Response $response
      */
 
     public function __construct(Request $request , Response $response , array $middleware)

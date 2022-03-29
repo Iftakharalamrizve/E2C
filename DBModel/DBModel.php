@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\DBModel;
+namespace e2c\mvc\DBModel;
 
-use app\core\Model;
+use e2c\mvc\Model;
 
 abstract class DBModel extends Model  implements  ORMInterFace
 {

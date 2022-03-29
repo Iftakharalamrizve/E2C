@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core\auth;
+namespace e2c\mvc\auth;
 
-use app\core\Application;
-use app\core\DBModel\DBModel;
-use app\core\Session;
+use e2c\mvc\Application;
+use e2c\mvc\DBModel\DBModel;
+use e2c\mvc\Session;
 
 class Auth
 {

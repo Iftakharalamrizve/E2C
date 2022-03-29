@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core;
-use app\core\router\Router;
+namespace e2c\mvc;
+use e2c\mvc\router\Router;
 use app\models\User;
 
 class Application
@@ -10,7 +10,7 @@ class Application
     /**
      * The application instance store this property .
      *
-     * @var \app\core\Application
+     * @var \e2c\mvc\Application
      */
     public static Application $app;
 
@@ -31,14 +31,14 @@ class Application
     /**
      * The application instance store this property .
      *
-     * @var \app\core\Response
+     * @var \e2c\mvc\Response
      */
     public Response $response;
 
     /**
      * The application instance store this property .
      *
-     * @var \app\core\Request
+     * @var \e2c\mvc\Request
      */
     public Request $request;
 
@@ -60,7 +60,7 @@ class Application
     /**
      * The application instance store this property .
      *
-     * @var \app\core\Controller
+     * @var \e2c\mvc\Controller
      */
     public Controller $controller;
 

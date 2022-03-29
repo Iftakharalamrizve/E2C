@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace e2c\mvc;
 
 class Session
 {
