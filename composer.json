@@ -1,0 +1,16 @@
+{
+    "name": "rizve/e2c-core",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rizve\\E2cCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "iftakharalamrizve",
+            "email": "iftakharalam32@gmail.com"
+        }
+    ],
+    "require": {}
+}
